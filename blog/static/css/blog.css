@@ -1,0 +1,59 @@
+h1 a {
+    color: #F50C0C;
+    font-family: 'Lobster';
+    font-size: 70px;
+}
+h2 a {
+  color: #F50C0C;
+  font-family: 'Lobster';
+  font-size: 55px;
+}
+h3 a {
+  color: #F50C0C;
+  font-family: 'Lobster';
+  font-size: 35px;
+}
+body {
+  padding-left: 15px;
+  background-color: #FAE1E1;
+}
+.page-header {
+  background-color: #F5B8B8;
+  margin-top: 0;
+  padding: 20px 20px 20px 20px;
+}
+
+}
+.content {
+    margin-left: 0px;
+}
+
+
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 80%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #F50C0C;
+    float: right;
+    font-size: 26pt;
+    margin-right: 1px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #F50C0C;
+}

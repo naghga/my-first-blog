@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<html>
+    <head>
+      <title>Eddie Love</title>
+      <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+    <div class="page-header">
+        <h1><a href="/">Eddie Love</a></h1>
+    </div>
+    <div>
+      <p><strong>In case nobody told you today....</strong></p>
+      <h2><a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g">You are perfect <3!</a></h2>
+    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div>
+    </div>
+    <!-- <div class="content container"> -->
+        <div class="row">
+         <div class="col-md-10">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    <!-- </div> -->
+</body>
+
+</html>
